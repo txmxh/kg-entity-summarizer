@@ -17,11 +17,20 @@ The core approach is **property local frequency** (LF): properties (predicates) 
 - Select the top-*k* triples as the summary
 This method offers a simple and interpretable baseline for entity summarization.
 
+## Project Structure
+kg-entity-summarizer/
+├── main.py # Example use case and execution
+├── count_local_frequency.py # Function to compute property frequency
+├── triple_ranking.py # Function to rank triples
+├── generate_entity_summary.py # Main summarization function
+├── README.md # Project documentation (this file)
+
 ## Requirements
 - Python 3.7+
 - (No external dependencies by default)
 
 ## Output
+<img width="563" height="104" alt="image" src="https://github.com/user-attachments/assets/06fef49e-f748-4e13-8601-1ce67b4c1a27" />
 
 ## Installation
 ```bash
